@@ -3,6 +3,10 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        
+        <Menu IsMainMenu="True" HorizontalAlignment="Left" Height="20" VerticalAlignment="Top" Width="517">
+            <MenuItem Header="_File">
+                <MenuItem Header="MenuItem"/>
+            </MenuItem>
+        </Menu>
     </Grid>
 </Window>
